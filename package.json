@@ -1,4 +1,11 @@
-{
+{ "name": "employee-tracker",
+"version": "1.0.0",
+"description": "",
+"main": "index.js",
+"scripts": {
+  "start": "node index"
+},
+
   "dependencies": {
     "inquirer": "^8.2.4"
   }
