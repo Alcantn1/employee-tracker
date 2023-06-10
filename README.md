@@ -22,7 +22,7 @@ After completing the installation steps, follow these instructions to run the ap
 
 Open the terminal and navigate to the project's directory.
 
-Run the following command:node index.js
+Run the following command:node index.js or npm start.
 
 You will be presented with a menu of options to choose from:
 View all departments
