@@ -1,4 +1,3 @@
--- Insert sample departments
 INSERT INTO department 
 (name) 
 VALUES
@@ -6,7 +5,6 @@ VALUES
   ('Marketing'),
   ('Finance');
 
--- Insert sample roles
 INSERT INTO role 
 (title, salary, department_id) 
 VALUES
@@ -17,8 +15,7 @@ VALUES
   ('Financial Analyst', 50000, 3),
   ('Accountant', 45000, 3);
 
--- Insert sample employees
-INSERT INTO employee 
+INSERT INTO employee
 (first_name, last_name, role_id, manager_id)
  VALUES
   ('John', 'Doe', 1, NULL),

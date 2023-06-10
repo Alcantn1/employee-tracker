@@ -1,10 +1,8 @@
--- Create the department table
 CREATE TABLE department (
   id INT PRIMARY KEY AUTO_INCREMENT,
   name VARCHAR(30)
 );
 
--- Create the role table
 CREATE TABLE role (
   id INT PRIMARY KEY AUTO_INCREMENT,
   title VARCHAR(30),
@@ -13,7 +11,6 @@ CREATE TABLE role (
   FOREIGN KEY (department_id) REFERENCES department(id)
 );
 
--- Create the employee table
 CREATE TABLE employee (
   id INT PRIMARY KEY AUTO_INCREMENT,
   first_name VARCHAR(30),
